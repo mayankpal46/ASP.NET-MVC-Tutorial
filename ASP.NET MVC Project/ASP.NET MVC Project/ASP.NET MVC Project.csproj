@@ -124,6 +124,7 @@
     <Compile Include="Controllers\MController.cs" />
     <Compile Include="Controllers\MyNewController.cs" />
     <Compile Include="Controllers\ParameterController.cs" />
+    <Compile Include="Controllers\RazorViewController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -184,6 +185,7 @@
     <Content Include="Views\M\Index.cshtml" />
     <Content Include="Views\Home\ReNamechange.cshtml" />
     <Content Include="Views\NewView\mynewview.cshtml" />
+    <Content Include="Views\RazorView\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
