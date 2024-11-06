@@ -121,6 +121,7 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\MController.cs" />
     <Compile Include="Controllers\MyNewController.cs" />
     <Compile Include="Controllers\ParameterController.cs" />
     <Compile Include="Global.asax.cs">
@@ -179,11 +180,13 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\M\Index.cshtml" />
+    <Content Include="Views\Home\ReNamechange.cshtml" />
+    <Content Include="Views\NewView\mynewview.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
-    <Folder Include="Views\MyNew\" />
     <Folder Include="Views\Parameter\" />
   </ItemGroup>
   <ItemGroup>

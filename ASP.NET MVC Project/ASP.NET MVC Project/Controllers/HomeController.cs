@@ -26,5 +26,22 @@ namespace ASP.NET_MVC_Project.Controllers
 
             return View();
         }
+
+        public ActionResult WithoutView()
+        {
+            return View();
+        }
+        public ActionResult Namechange()
+        {
+            //If view name change , then pass name of it 
+            return View("ReNameChange");
+        }
+
+        public ActionResult FolderNameChange()
+        {
+            //If name of folder is also change 
+            //path of our view which is in different folder
+            return View("~/View/NewView/myview.cshtml");
+        }
     }
 }
