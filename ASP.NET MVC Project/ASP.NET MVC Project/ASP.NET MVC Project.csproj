@@ -122,6 +122,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\ConditionalController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\HtmlHelpersController.cs" />
     <Compile Include="Controllers\MController.cs" />
     <Compile Include="Controllers\MyNewController.cs" />
     <Compile Include="Controllers\ParameterController.cs" />
@@ -188,6 +189,7 @@
     <Content Include="Views\NewView\mynewview.cshtml" />
     <Content Include="Views\RazorView\Index.cshtml" />
     <Content Include="Views\Conditional\Index.cshtml" />
+    <Content Include="Views\HtmlHelpers\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
