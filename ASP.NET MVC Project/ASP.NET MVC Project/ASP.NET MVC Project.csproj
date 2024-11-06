@@ -120,6 +120,7 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\ConditionalController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\MController.cs" />
     <Compile Include="Controllers\MyNewController.cs" />
@@ -186,6 +187,7 @@
     <Content Include="Views\Home\ReNamechange.cshtml" />
     <Content Include="Views\NewView\mynewview.cshtml" />
     <Content Include="Views\RazorView\Index.cshtml" />
+    <Content Include="Views\Conditional\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
