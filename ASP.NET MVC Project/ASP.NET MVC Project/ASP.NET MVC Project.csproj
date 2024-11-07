@@ -123,6 +123,7 @@
     <Compile Include="Controllers\ConditionalController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\HtmlHelpersController.cs" />
+    <Compile Include="Controllers\HttpVerbsController.cs" />
     <Compile Include="Controllers\MController.cs" />
     <Compile Include="Controllers\MyNewController.cs" />
     <Compile Include="Controllers\ParameterController.cs" />
@@ -206,6 +207,8 @@
     <Content Include="Views\TempDataFile\M1.cshtml" />
     <Content Include="Views\TempDataFile\M2.cshtml" />
     <Content Include="Views\TempDataFile\M3.cshtml" />
+    <Content Include="Views\HttpVerbs\Index.cshtml" />
+    <Content Include="Views\HttpVerbs\Pmethod.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
