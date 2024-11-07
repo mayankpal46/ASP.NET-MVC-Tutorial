@@ -121,7 +121,7 @@ What is model ?\ulnone\b0  :- \par
 \pard\sa200\sl276\slmult1\ulnone\b0\tab using System.ComponentModel.DataAnnotations;\par
 
 \pard{\pntext\f4\'B7\tab}{\*\pn\pnlvlblt\pnf4\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1 Attributes we use when we want to display something on view through property\ul\b\par
-{\pntext\f4\'B7\tab}\ulnone\b0 @Html.DisplayModelFor() :- for all property\ul\b\par
+{\pntext\f4\'B7\tab}\ulnone\b0 @Html.DisplayModelFor() :- for all property \ul\b\par
 
 \pard\sa200\sl276\slmult1\ulnone\b0\par
 \ul\b Types of templated html helper \ulnone\b0 :-\par
@@ -137,8 +137,35 @@ For Ediut/Input:-\ulnone\b0  \par
 \pard{\pntext\f4\'B7\tab}{\*\pn\pnlvlblt\pnf4\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1 @Html.Editior()\ul\b\par
 {\pntext\f4\'B7\tab}\ulnone\b0 @Html.EditorFor()\ul\b\line\par
 
-\pard\sa200\sl276\slmult1\ulnone\b0\par
+\pard\sa200\sl276\slmult1 Lecture :- 15 (  ViewBag & ViewData )\par
 \par
+
+\pard{\pntext\f4\'B7\tab}{\*\pn\pnlvlblt\pnf4\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1\ulnone\b0 Both ViewBag and ViewData is use to pass data from controller to view\par
+
+\pard\sa200\sl276\slmult1\ul\b ViewBag\ulnone\b0  :- \par
+
+\pard{\pntext\f4\'B7\tab}{\*\pn\pnlvlblt\pnf4\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1 ViewBag is a dynamic property\par
+{\pntext\f4\'B7\tab}Use to send data from controller to view\par
+{\pntext\f4\'B7\tab}we can assign any name to property\par
+{\pntext\f4\'B7\tab}ViewBag.Property = value ;\par
+
+\pard\sa200\sl276\slmult1\par
+\ul\b ViewData\ulnone\b0  :- \par
+
+\pard{\pntext\f4\'B7\tab}{\*\pn\pnlvlblt\pnf4\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1 ViewData works as a dictionary \par
+{\pntext\f4\'B7\tab}Also used to send data from controller to view\par
+{\pntext\f4\'B7\tab}Assign any name in place of key\par
+{\pntext\f4\'B7\tab}ViewData["Key"] = value;\par
+
+\pard\sa200\sl276\slmult1\par
+\ul\b Disadvantages :-\ulnone\b0\par
+
+\pard{\pntext\f4\'B7\tab}{\*\pn\pnlvlblt\pnf4\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1 No compiletime checking\par
+{\pntext\f4\'B7\tab}key or property name can be change\par
+{\pntext\f4\'B7\tab}Need to cast while sending data through list using view\par
+{\pntext\f4\'B7\tab}Can't send data from view to controller\par
+
+\pard\sa200\sl276\slmult1\par
 \par
 \par
 \par

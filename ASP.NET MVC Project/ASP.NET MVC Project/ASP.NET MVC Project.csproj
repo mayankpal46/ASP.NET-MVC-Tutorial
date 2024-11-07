@@ -130,6 +130,7 @@
     <Compile Include="Controllers\StandardHelperController.cs" />
     <Compile Include="Controllers\StronglyTypeHelpersController.cs" />
     <Compile Include="Controllers\TemplatedHtmlHelpersController.cs" />
+    <Compile Include="Controllers\ViewBagAndViewDataController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -200,9 +201,11 @@
     <Content Include="Views\StronglyTypeHelpers\Index.cshtml" />
     <Content Include="Views\TemplatedHtmlHelpers\Index.cshtml" />
     <Content Include="Views\TemplatedHtmlHelpers\Edit.cshtml" />
+    <Content Include="Views\ViewBagAndViewData\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Views\CustomHelper\" />
     <Folder Include="Views\Parameter\" />
     <Folder Include="Views\StronglyType\" />
   </ItemGroup>
