@@ -128,10 +128,12 @@
     <Compile Include="Controllers\ParameterController.cs" />
     <Compile Include="Controllers\RazorViewController.cs" />
     <Compile Include="Controllers\StandardHelperController.cs" />
+    <Compile Include="Controllers\StronglyTypeHelpersController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\mymodel.cs" />
+    <Compile Include="Models\StronglyType.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -193,10 +195,12 @@
     <Content Include="Views\HtmlHelpers\Index.cshtml" />
     <Content Include="Views\StandardHelper\Index.cshtml" />
     <Content Include="Views\StandardHelper\About.cshtml" />
+    <Content Include="Views\StronglyTypeHelpers\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Views\Parameter\" />
+    <Folder Include="Views\StronglyType\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap.rtl.min.css.map" />
