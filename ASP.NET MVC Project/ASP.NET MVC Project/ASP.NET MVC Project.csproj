@@ -129,6 +129,7 @@
     <Compile Include="Controllers\RazorViewController.cs" />
     <Compile Include="Controllers\StandardHelperController.cs" />
     <Compile Include="Controllers\StronglyTypeHelpersController.cs" />
+    <Compile Include="Controllers\TempDataFileController.cs" />
     <Compile Include="Controllers\TemplatedHtmlHelpersController.cs" />
     <Compile Include="Controllers\ViewBagAndViewDataController.cs" />
     <Compile Include="Global.asax.cs">
@@ -202,6 +203,9 @@
     <Content Include="Views\TemplatedHtmlHelpers\Index.cshtml" />
     <Content Include="Views\TemplatedHtmlHelpers\Edit.cshtml" />
     <Content Include="Views\ViewBagAndViewData\Index.cshtml" />
+    <Content Include="Views\TempDataFile\M1.cshtml" />
+    <Content Include="Views\TempDataFile\M2.cshtml" />
+    <Content Include="Views\TempDataFile\M3.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

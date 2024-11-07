@@ -166,9 +166,28 @@ For Ediut/Input:-\ulnone\b0  \par
 {\pntext\f4\'B7\tab}Can't send data from view to controller\par
 
 \pard\sa200\sl276\slmult1\par
-\par
-\par
-\par
+\ul\b Lecture :- 16 (  TempData )\par
+\ulnone\b0\par
+\ul\b What is TempData ?\ulnone\b0  :- \par
+
+\pard{\pntext\f4\'B7\tab}{\*\pn\pnlvlblt\pnf4\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1 We use tempdata when we need a value of tempdata after current cycle (  only for one cycle )\par
+{\pntext\f4\'B7\tab} TempData can use within same controller also and in another controller also\par
+{\pntext\f4\'B7\tab} TempData internally use session to store data \par
+{\pntext\f4\'B7\tab}When session ends data of tempdata goes \par
+
+\pard\sa200\sl276\slmult1\par
+\ul\b Keep() Method\ulnone\b0 :- \par
+
+\pard{\pntext\f4\'B7\tab}{\*\pn\pnlvlblt\pnf4\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1 To save data for next to next http call , so for that we use keep() method\par
+{\pntext\f4\'B7\tab}TempData.Keep("key") :- for particular key\par
+{\pntext\f4\'B7\tab}TempData.Keep() :- Hold values for other remaining method also\par
+
+\pard\sa200\sl276\slmult1\par
+\ul\b Peek() Method:-\ulnone\b0  \par
+
+\pard{\pntext\f4\'B7\tab}{\*\pn\pnlvlblt\pnf4\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1 Through peek method we can read data also and save also for next method where ever we want to use \par
+
+\pard\sa200\sl276\slmult1\par
 \par
 \par
 \par
