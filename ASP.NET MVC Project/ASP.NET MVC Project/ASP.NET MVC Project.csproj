@@ -128,6 +128,7 @@
     <Compile Include="Controllers\MController.cs" />
     <Compile Include="Controllers\MyNewController.cs" />
     <Compile Include="Controllers\ParameterController.cs" />
+    <Compile Include="Controllers\PassDataFromViewController.cs" />
     <Compile Include="Controllers\RazorViewController.cs" />
     <Compile Include="Controllers\RoutefileController.cs" />
     <Compile Include="Controllers\StandardHelperController.cs" />
@@ -220,6 +221,7 @@
     <Content Include="Views\AttributeRoute\Getstudentaddress.cshtml" />
     <Content Include="Views\AttributeRoute\Getsinglestudent.cshtml" />
     <Content Include="Views\AttributeRoute\Aboutmethod.cshtml" />
+    <Content Include="Views\PassDataFromView\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
