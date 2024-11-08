@@ -1,5 +1,5 @@
 {\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Times New Roman;}{\f1\fnil Cascadia Mono;}{\f2\fnil\fcharset0 Cascadia Mono;}{\f3\fnil\fcharset0 Calibri;}{\f4\fnil\fcharset2 Symbol;}}
-{\colortbl ;\red163\green21\blue21;\red255\green255\blue255;\red0\green128\blue0;}
+{\colortbl ;\red163\green21\blue21;\red255\green255\blue255;\red0\green128\blue0;\red0\green0\blue0;\red0\green0\blue255;}
 {\*\generator Riched20 10.0.19041}\viewkind4\uc1 
 \pard\sa200\sl276\slmult1\ul\b\f0\fs28\lang9 Lecture :- 05 ( Controllers in MVC )\par
 \par
@@ -249,8 +249,30 @@ Request ------------>  Parse URL -----------------------> Find Matching URL ( Ro
 {\pntext\f4\'B7\tab}Attribute routing ( Available in MVC 5 )\par
 
 \pard\sa200\sl276\slmult1\par
-\par
-\par
+\ul\b Lecture :- 19 ( Traditional way of Routing )\par
+\ulnone\b0\par
+\ul\b Traditional way of routing :-\ulnone\b0\par
+
+\pard{\pntext\f4\'B7\tab}{\*\pn\pnlvlblt\pnf4\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1 Routing is pattern matching system for url that mpas incoming request with controller action method\par
+{\pntext\f4\'B7\tab}We set all the routes in RouteConfig file\par
+{\pntext\f4\'B7\tab}RouteConfig is available in app_start folder\par
+{\pntext\f4\'B7\tab}We need to register all the routes to make them operational\par
+{\pntext\f4\'B7\tab}When our applications runs , app_start method runs first which is in global.asax\par
+{\pntext\f4\'B7\tab}Routes ptresent inm  method which is prsent in routeconfig file , that method need to register in global.asax file\par
+{\pntext\f4\'B7\tab}Default route add at the end same like default case\par
+
+\pard\sa200\sl276\slmult1\par
+\ul\b Adding View through Scaffolding :-\ulnone\b0\par
+
+\pard{\pntext\f4\'B7\tab}{\*\pn\pnlvlblt\pnf4\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1 Right click on method -----> Add View ----> select template and model -----> then ok\par
+{\pntext\f4\'B7\tab}Here in url we will get id during run time , and name should be different in route\par
+
+\pard\sa200\sl276\slmult1\cf4\highlight2\f1\fs19 routes.MapRoute\par
+    (\par
+        name: \cf1 "allstudents"\cf4 ,\par
+        url: \cf1 "RouteFile/\{id\}"\cf4 ,\par
+        defaults: \cf5 new\cf4  \{ \cf5 Controller\cf4  = \cf1 "Routefile"\cf4 , Action = \cf1 "Getallstudents"\cf4  \}\par
+    );\cf0\highlight0\f0\fs28\par
 \par
 \par
 \par

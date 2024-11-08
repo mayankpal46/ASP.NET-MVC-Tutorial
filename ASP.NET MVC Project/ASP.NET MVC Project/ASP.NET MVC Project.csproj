@@ -128,6 +128,7 @@
     <Compile Include="Controllers\MyNewController.cs" />
     <Compile Include="Controllers\ParameterController.cs" />
     <Compile Include="Controllers\RazorViewController.cs" />
+    <Compile Include="Controllers\RoutefileController.cs" />
     <Compile Include="Controllers\StandardHelperController.cs" />
     <Compile Include="Controllers\StronglyTypeHelpersController.cs" />
     <Compile Include="Controllers\TempDataFileController.cs" />
@@ -136,8 +137,10 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\Address.cs" />
     <Compile Include="Models\mymodel.cs" />
     <Compile Include="Models\StronglyType.cs" />
+    <Compile Include="Models\Students.cs" />
     <Compile Include="Models\TemplatedHtmlHelpers.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -209,6 +212,9 @@
     <Content Include="Views\TempDataFile\M3.cshtml" />
     <Content Include="Views\HttpVerbs\Index.cshtml" />
     <Content Include="Views\HttpVerbs\Pmethod.cshtml" />
+    <Content Include="Views\Routefile\Getallstudents.cshtml" />
+    <Content Include="Views\Routefile\Getsinglestudent.cshtml" />
+    <Content Include="Views\Routefile\Getstudentaddress.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

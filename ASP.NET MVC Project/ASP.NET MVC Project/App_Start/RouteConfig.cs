@@ -1,4 +1,5 @@
-﻿using System;
+﻿
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -12,6 +13,31 @@ namespace ASP.NET_MVC_Project
         public static void RegisterRoutes(RouteCollection routes)
         {
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
+
+            routes.MapRoute
+                (
+                    name :"allstudents",
+                    url : "RouteFile",
+                    defaults : new {Controller = "Routefile" , Action= "Getallstudents" }
+                );
+
+            routes.MapRoute
+                (
+                    name: "student",
+                    url: "RouteFile/{id}",
+                    defaults: new { Controller = "Routefile", Action = "Getsinglestudent" }
+                );
+
+            routes.MapRoute
+               (
+                   name: "students",
+                   url: "RouteFile/{id}",
+                   defaults: new { Controller = "Routefile", Action = "Getstudentaddress" }
+               );
+
+
+
+            
 
             routes.MapRoute(
                 name: "Default",
