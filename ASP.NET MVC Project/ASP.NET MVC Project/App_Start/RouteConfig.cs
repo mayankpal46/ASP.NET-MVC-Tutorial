@@ -14,26 +14,27 @@ namespace ASP.NET_MVC_Project
         {
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
-            routes.MapRoute
-                (
-                    name :"allstudents",
-                    url : "RouteFile",
-                    defaults : new {Controller = "Routefile" , Action= "Getallstudents" }
-                );
+            routes.MapMvcAttributeRoutes();
+            //routes.MapRoute
+            //    (
+            //        name :"allstudents",
+            //        url : "RouteFile",
+            //        defaults : new {Controller = "Routefile" , Action= "Getallstudents" }
+            //    );
 
-            routes.MapRoute
-                (
-                    name: "student",
-                    url: "RouteFile/{id}",
-                    defaults: new { Controller = "Routefile", Action = "Getsinglestudent" }
-                );
+            //routes.MapRoute
+            //    (
+            //        name: "student",
+            //        url: "RouteFile/{id}",
+            //        defaults: new { Controller = "Routefile", Action = "Getsinglestudent" }
+            //    );
 
-            routes.MapRoute
-               (
-                   name: "students",
-                   url: "RouteFile/{id}",
-                   defaults: new { Controller = "Routefile", Action = "Getstudentaddress" }
-               );
+            //routes.MapRoute
+            //   (
+            //       name: "students",
+            //       url: "RouteFile/{id}",
+            //       defaults: new { Controller = "Routefile", Action = "Getstudentaddress" }
+            //   );
 
 
 

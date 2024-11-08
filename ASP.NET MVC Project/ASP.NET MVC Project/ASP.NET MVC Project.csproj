@@ -120,6 +120,7 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\AttributeRouteController.cs" />
     <Compile Include="Controllers\ConditionalController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\HtmlHelpersController.cs" />
@@ -215,6 +216,10 @@
     <Content Include="Views\Routefile\Getallstudents.cshtml" />
     <Content Include="Views\Routefile\Getsinglestudent.cshtml" />
     <Content Include="Views\Routefile\Getstudentaddress.cshtml" />
+    <Content Include="Views\AttributeRoute\Getallstudents.cshtml" />
+    <Content Include="Views\AttributeRoute\Getstudentaddress.cshtml" />
+    <Content Include="Views\AttributeRoute\Getsinglestudent.cshtml" />
+    <Content Include="Views\AttributeRoute\Aboutmethod.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

@@ -260,6 +260,7 @@ Request ------------>  Parse URL -----------------------> Find Matching URL ( Ro
 {\pntext\f4\'B7\tab}When our applications runs , app_start method runs first which is in global.asax\par
 {\pntext\f4\'B7\tab}Routes ptresent inm  method which is prsent in routeconfig file , that method need to register in global.asax file\par
 {\pntext\f4\'B7\tab}Default route add at the end same like default case\par
+{\pntext\f4\'B7\tab}Two routes for one action method will work , but one route for two action method will not work\par
 
 \pard\sa200\sl276\slmult1\par
 \ul\b Adding View through Scaffolding :-\ulnone\b0\par
@@ -274,8 +275,23 @@ Request ------------>  Parse URL -----------------------> Find Matching URL ( Ro
         defaults: \cf5 new\cf4  \{ \cf5 Controller\cf4  = \cf1 "Routefile"\cf4 , Action = \cf1 "Getallstudents"\cf4  \}\par
     );\cf0\highlight0\f0\fs28\par
 \par
-\par
-\par
+\ul\b Lecture :- 20 ( Attribute Routing )\par
+\ulnone\b0\par
+
+\pard{\pntext\f4\'B7\tab}{\*\pn\pnlvlblt\pnf4\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1 To know MVC application , we call one method in routeconfig \par
+
+\pard\sa200\sl276\slmult1\tab routes.MapMvcAttributeRoutes();\par
+
+\pard{\pntext\f4\'B7\tab}{\*\pn\pnlvlblt\pnf4\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1 Above method ----> [Route("allstudents")]\par
+
+\pard\sa200\sl276\slmult1\tab After mentioning allstudents , there no need to call method name and controller name\par
+
+\pard{\pntext\f4\'B7\tab}{\*\pn\pnlvlblt\pnf4\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1 We can use [RoutePrefix("common part")]\par
+{\pntext\f4\'B7\tab}[Route("\{id:int\}")] :- when same route but with different type of parameter\par
+{\pntext\f4\'B7\tab}[Route("~/about-method")] :- To override route written in RoutePrefix\par
+{\pntext\f4\'B7\tab}We can use multiple route for single action method\par
+
+\pard\sa200\sl276\slmult1\par
 \par
 \par
 \par
