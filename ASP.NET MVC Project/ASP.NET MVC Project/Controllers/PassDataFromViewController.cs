@@ -49,7 +49,7 @@ namespace ASP.NET_MVC_Project.Controllers
         public string PostUsingStronglyBinding(Students data)
         {
             
-            return "Data using Strongly Type Binding : " + data.Name;
+            return "Data using Strongly Type Binding : " + data.Name + data.Id;
 
         }
     }
