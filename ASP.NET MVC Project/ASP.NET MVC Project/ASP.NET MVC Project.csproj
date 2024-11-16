@@ -133,6 +133,7 @@
     <Compile Include="Controllers\RazorViewController.cs" />
     <Compile Include="Controllers\RoutefileController.cs" />
     <Compile Include="Controllers\StandardHelperController.cs" />
+    <Compile Include="Controllers\StronglyBindingValidationController.cs" />
     <Compile Include="Controllers\StronglyTypeHelpersController.cs" />
     <Compile Include="Controllers\TempDataFileController.cs" />
     <Compile Include="Controllers\TemplatedHtmlHelpersController.cs" />
@@ -225,6 +226,8 @@
     <Content Include="Views\PassDataFromView\Index.cshtml" />
     <Content Include="Views\LooselyBindingValidation\Index.cshtml" />
     <Content Include="Views\LooselyBindingValidation\submitdata.cshtml" />
+    <Content Include="Views\StronglyBindingValidation\stronglybinding.cshtml" />
+    <Content Include="Views\StronglyBindingValidation\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
