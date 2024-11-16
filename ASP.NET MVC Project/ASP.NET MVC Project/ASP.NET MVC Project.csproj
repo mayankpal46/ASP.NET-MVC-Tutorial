@@ -125,6 +125,7 @@
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\HtmlHelpersController.cs" />
     <Compile Include="Controllers\HttpVerbsController.cs" />
+    <Compile Include="Controllers\LooselyBindingValidationController.cs" />
     <Compile Include="Controllers\MController.cs" />
     <Compile Include="Controllers\MyNewController.cs" />
     <Compile Include="Controllers\ParameterController.cs" />
@@ -222,6 +223,8 @@
     <Content Include="Views\AttributeRoute\Getsinglestudent.cshtml" />
     <Content Include="Views\AttributeRoute\Aboutmethod.cshtml" />
     <Content Include="Views\PassDataFromView\Index.cshtml" />
+    <Content Include="Views\LooselyBindingValidation\Index.cshtml" />
+    <Content Include="Views\LooselyBindingValidation\submitdata.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
