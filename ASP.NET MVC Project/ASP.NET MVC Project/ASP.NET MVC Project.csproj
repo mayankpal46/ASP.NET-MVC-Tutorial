@@ -135,6 +135,7 @@
     <Compile Include="Controllers\PassDataFromViewController.cs" />
     <Compile Include="Controllers\RazorViewController.cs" />
     <Compile Include="Controllers\RoutefileController.cs" />
+    <Compile Include="Controllers\SectionLayoutController.cs" />
     <Compile Include="Controllers\StandardHelperController.cs" />
     <Compile Include="Controllers\StronglyBindingValidationController.cs" />
     <Compile Include="Controllers\StronglyTypeHelpersController.cs" />
@@ -240,6 +241,9 @@
     <Content Include="Views\LayoutView\Index.cshtml" />
     <Content Include="Views\Shared\_Newlayout.cshtml" />
     <Content Include="Views\Shared\NLayout.cshtml" />
+    <Content Include="Views\SectionLayout\Index.cshtml" />
+    <Content Include="Views\Shared\_sectionlayout.cshtml" />
+    <Content Include="Views\SectionLayout\m1.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
