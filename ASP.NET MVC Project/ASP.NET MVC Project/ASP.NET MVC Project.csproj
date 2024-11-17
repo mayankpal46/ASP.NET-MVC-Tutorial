@@ -126,6 +126,8 @@
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\HtmlHelpersController.cs" />
     <Compile Include="Controllers\HttpVerbsController.cs" />
+    <Compile Include="Controllers\LayoutView2Controller.cs" />
+    <Compile Include="Controllers\LayoutViewController.cs" />
     <Compile Include="Controllers\LooselyBindingValidationController.cs" />
     <Compile Include="Controllers\MController.cs" />
     <Compile Include="Controllers\MyNewController.cs" />
@@ -233,6 +235,10 @@
     <Content Include="Views\StronglyBindingValidation\Index.cshtml" />
     <Content Include="Views\CustomValidation\Postmethod.cshtml" />
     <Content Include="Views\CustomValidation\Index.cshtml" />
+    <Content Include="Views\LayoutView2\GetList.cshtml" />
+    <Content Include="Views\LayoutView2\AddList.cshtml" />
+    <Content Include="Views\LayoutView\Index.cshtml" />
+    <Content Include="Views\Shared\_Newlayout.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
