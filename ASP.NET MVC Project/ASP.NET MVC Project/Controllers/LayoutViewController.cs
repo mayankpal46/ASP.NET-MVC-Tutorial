@@ -11,7 +11,7 @@ namespace ASP.NET_MVC_Project.Controllers
         // GET: LayoutView
         public ActionResult Index()
         {
-            return View();
+            return View("Index","NLayout");
         }
     }
 }

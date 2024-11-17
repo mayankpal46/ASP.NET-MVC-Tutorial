@@ -12,13 +12,13 @@ namespace ASP.NET_MVC_Project.Controllers
         [Route("GetList")]
         public ActionResult GetList()
         {
-            return View();
+            return View("GetList" , "_NewLayout");
         }
 
         [Route("AddList")]
         public ActionResult AddList()
         {
-            return View();
+            return View("AddList" , "_NewLayout");
         }
     }
 }
