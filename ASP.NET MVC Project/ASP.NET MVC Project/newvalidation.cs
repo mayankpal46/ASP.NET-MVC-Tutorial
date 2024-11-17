@@ -12,7 +12,7 @@ namespace ASP.NET_MVC_Project
             if (value != null)
             {
                 string message = value.ToString();
-                if (message.Contains("Rudra"))
+                if (message.Contains("Omkara"))
                 {
                     return ValidationResult.Success;
                 }
