@@ -122,6 +122,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\AttributeRouteController.cs" />
     <Compile Include="Controllers\ConditionalController.cs" />
+    <Compile Include="Controllers\CustomValidationController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\HtmlHelpersController.cs" />
     <Compile Include="Controllers\HttpVerbsController.cs" />
@@ -142,10 +143,12 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\Address.cs" />
+    <Compile Include="Models\Customclas.cs" />
     <Compile Include="Models\mymodel.cs" />
     <Compile Include="Models\StronglyType.cs" />
     <Compile Include="Models\Students.cs" />
     <Compile Include="Models\TemplatedHtmlHelpers.cs" />
+    <Compile Include="newvalidation.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -228,6 +231,8 @@
     <Content Include="Views\LooselyBindingValidation\submitdata.cshtml" />
     <Content Include="Views\StronglyBindingValidation\stronglybinding.cshtml" />
     <Content Include="Views\StronglyBindingValidation\Index.cshtml" />
+    <Content Include="Views\CustomValidation\Postmethod.cshtml" />
+    <Content Include="Views\CustomValidation\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
