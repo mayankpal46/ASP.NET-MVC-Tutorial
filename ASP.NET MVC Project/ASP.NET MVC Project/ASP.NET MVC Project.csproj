@@ -134,6 +134,7 @@
     <Compile Include="Controllers\ParameterController.cs" />
     <Compile Include="Controllers\PassDataFromViewController.cs" />
     <Compile Include="Controllers\RazorViewController.cs" />
+    <Compile Include="Controllers\RenderPageController.cs" />
     <Compile Include="Controllers\RoutefileController.cs" />
     <Compile Include="Controllers\SectionLayoutController.cs" />
     <Compile Include="Controllers\StandardHelperController.cs" />
@@ -244,6 +245,9 @@
     <Content Include="Views\SectionLayout\Index.cshtml" />
     <Content Include="Views\Shared\_sectionlayout.cshtml" />
     <Content Include="Views\SectionLayout\m1.cshtml" />
+    <Content Include="Views\RenderPage\Index.cshtml" />
+    <Content Include="Views\RenderPage\Index2.cshtml" />
+    <Content Include="Views\Shared\_RenderLayout.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
